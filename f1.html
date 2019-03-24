@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Nagarajan</title>
+	<script type="text/javascript">
+	var name3,alp;	
+	function fun(alp)
+	{
+		var str=document.getElementById("button1").value;
+		document.getElementById("but1").innerHTML="Hello "+str;
+	}
+	function fun2()
+	{
+		document.getElementById("but1").innerHTML=alp;
+	}
+
+	</script>
+	<style>
+	.bg_red{
+		background-color:dodgerblue;
+		border-radius: 5px;
+
+	}
+
+	</style>
+</head>
+<body>
+	<input type="text" name="name1" id="button1" placeholder="Enter Name"><br>
+	<input type="Password" name="pass1" placeholder="Enter Password" id="pass1">
+	<select onchange="fun2(this.value)">
+  <option value="DAA">DAA</option>
+  <option value="CA">CA</option>
+  <option value="Maths">MAT</option>
+  <option value="OS">OS</option>
+</select>
+	<button onclick="fun(value)" class="bg_red">Hello,Press Here</button>
+<p id="but1"></p>
+
+
+</body>
