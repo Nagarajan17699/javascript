@@ -1,11 +1,8 @@
-var a=5;b=2; 
-let c;
-c=a/b;
-if (c==3) {
-	// window.alert("Hello");
-}
-else 
+console.log("Hello");
+let a=5;
+console.log(a);
+fun();
+function fun()
 {
-	console.log(c)
+	console.log("Hai");
 }
-console.log(c);
